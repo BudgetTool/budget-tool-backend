@@ -1,0 +1,23 @@
+{
+  "name": "budget-tool-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ericwhitcomb/budget-tool-backend.git",
+  "author": "Group",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env DB_ENV=testing jest --verbose --watch",
+    "server": "nodemon",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
